@@ -23,7 +23,7 @@ This project analyzes customer churn behavior using Power BI, focusing on identi
 
 You can view the full dashboard here:
 
-[Download Dashboard PDF](images/Churn_Analysis_Dashboard.pdf.pdf)
+[Download Dashboard PDF](images/Churn_Analysis_Dashboard.pdf)
 
 ## 🛠 Tools Used
 
