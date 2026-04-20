@@ -1,16 +1,47 @@
-# Telecom Customer Churn Dashboard — Power BI
+# 📊 Telecom Customer Churn Dashboard
 
-## What it shows
-- **7,043 customers** — 27% overall churn rate
-- Churn Rate by Contract Type, Internet Service, Payment Method
-- Avg Monthly Charges comparison: Churned vs Active customers
-- Interactive slicers: Contract, Internet Service, Paperless Billing
+> Interactive Power BI dashboard analyzing churn drivers across 7,043 telecom customers.
 
-## Key findings
-- Month-to-month contracts: 43% churn vs Two year: 3%
-- Fiber optic customers churn at 42% despite premium pricing
-- Electronic check payment method leads to 45% churn rate
-- Churned customers pay €74/month vs €61 for active customers
+---
 
-## Stack
-Power BI Desktop · DAX · Python (pandas) · Kaggle dataset
+## 🔍 Key Findings
+
+| Insight | Value |
+|---|---|
+| Overall Churn Rate | 27% |
+| Month-to-month churn | 43% |
+| Two-year contract churn | 3% |
+| Fiber optic churn | 42% |
+| Electronic check churn | 45% |
+| Avg charges — churned | €74/month |
+| Avg charges — active | €61/month |
+
+---
+
+## 📈 Dashboard Visuals
+
+- **Churn Rate by Contract Type** — Month-to-month customers churn 14x more than two-year contracts
+- **Churn Rate by Internet Service** — Fiber optic has highest churn despite being premium service
+- **Churn Rate by Payment Method** — Electronic check leads to highest churn rate
+- **Avg Monthly Charges by Churn** — Churned customers pay more, suggesting a value-for-money problem
+
+---
+
+## 🎛️ Interactive Filters
+- Contract type
+- Internet service
+- Paperless billing
+
+---
+
+## 💡 Business Recommendations
+
+1. **Incentivize longer contracts** — offer discounts for One/Two year commitments
+2. **Investigate Fiber optic quality** — high churn despite premium pricing signals service issues
+3. **Promote auto-payment** — nudge Electronic check users toward Credit card or Bank transfer
+4. **Target high-charge customers** — churned customers pay more, focus retention on this segment
+
+---
+
+## 🛠️ Stack
+Power BI Desktop · DAX · Python (pandas) · Kaggle Telco Dataset
