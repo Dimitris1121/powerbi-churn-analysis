@@ -1,47 +1,21 @@
 # 📊 Telecom Customer Churn Dashboard
 
-> Interactive Power BI dashboard analyzing churn drivers across 7,043 telecom customers.
+Interactive Power BI dashboard analyzing churn drivers across 7,043 telecom customers.
 
----
-
-## 🔍 Key Findings
-
-| Insight | Value |
+## Key Findings
+| Segment | Churn Rate |
 |---|---|
-| Overall Churn Rate | 27% |
-| Month-to-month churn | 43% |
-| Two-year contract churn | 3% |
-| Fiber optic churn | 42% |
-| Electronic check churn | 45% |
-| Avg charges — churned | €74/month |
-| Avg charges — active | €61/month |
+| Month-to-month contracts | 43% |
+| Fiber optic service | 42% |
+| Electronic check payment | 45% |
+| Two-year contracts | 3% |
 
----
+Churned customers pay **€74/month** vs **€61** for active customers.
 
-## 📈 Dashboard Visuals
+## Dashboard Features
+- 4 KPI cards: Total Customers, Churn Rate, Avg Monthly Charges, Avg Tenure
+- 4 insight-driven charts with descriptive titles
+- Interactive slicers: Contract, Internet Service, Paperless Billing
 
-- **Churn Rate by Contract Type** — Month-to-month customers churn 14x more than two-year contracts
-- **Churn Rate by Internet Service** — Fiber optic has highest churn despite being premium service
-- **Churn Rate by Payment Method** — Electronic check leads to highest churn rate
-- **Avg Monthly Charges by Churn** — Churned customers pay more, suggesting a value-for-money problem
-
----
-
-## 🎛️ Interactive Filters
-- Contract type
-- Internet service
-- Paperless billing
-
----
-
-## 💡 Business Recommendations
-
-1. **Incentivize longer contracts** — offer discounts for One/Two year commitments
-2. **Investigate Fiber optic quality** — high churn despite premium pricing signals service issues
-3. **Promote auto-payment** — nudge Electronic check users toward Credit card or Bank transfer
-4. **Target high-charge customers** — churned customers pay more, focus retention on this segment
-
----
-
-## 🛠️ Stack
-Power BI Desktop · DAX · Python (pandas) · Kaggle Telco Dataset
+## Stack
+Power BI · DAX · Python · Kaggle Telco Dataset
