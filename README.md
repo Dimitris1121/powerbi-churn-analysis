@@ -1,40 +1,16 @@
-# Customer Churn Analysis (Power BI)
+# Telecom Customer Churn Dashboard — Power BI
 
-## 📊 Overview
+## What it shows
+- **7,043 customers** — 27% overall churn rate
+- Churn Rate by Contract Type, Internet Service, Payment Method
+- Avg Monthly Charges comparison: Churned vs Active customers
+- Interactive slicers: Contract, Internet Service, Paperless Billing
 
-This project analyzes customer churn behavior using Power BI, focusing on identifying when users churn and how churn varies based on customer value and lifecycle stage.
+## Key findings
+- Month-to-month contracts: 43% churn vs Two year: 3%
+- Fiber optic customers churn at 42% despite premium pricing
+- Electronic check payment method leads to 45% churn rate
+- Churned customers pay €74/month vs €61 for active customers
 
-## 🔍 Key Insights
-
-* Overall churn rate is approximately 26%, indicating a potential retention issue
-* Churn is highest in early-stage users (0–3 months: 56%), highlighting onboarding as a critical phase
-* Churn increases with customer value, with high-value users showing the highest churn rate (~35%)
-* This suggests that both early engagement and value perception are key drivers of retention
-
-## 📈 Dashboard Features
-
-* Churn rate KPI overview
-* Customer segmentation by tenure (lifecycle analysis)
-* Customer segmentation by value (Monthly Charges)
-* Churn distribution (active vs churned users)
-* Comparative churn analysis across segments
-
-## 📄 Dashboard
-
-You can view the full dashboard here:
-
-[Download Dashboard PDF](images/Churn_Analysis_Dashboard.pdf)
-
-## 🛠 Tools Used
-
-* Power BI
-* DAX
-* Data Visualization
-
-## 🎯 Business Implications
-
-* Improve onboarding experience to reduce early churn
-* Monitor and retain high-value customers through targeted strategies
-* Align product/service expectations with premium users
-
----
+## Stack
+Power BI Desktop · DAX · Python (pandas) · Kaggle dataset
